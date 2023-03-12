@@ -1,4 +1,4 @@
-let x= [1, 2, 3];
-let y= x.slice();
+let x = [1, 2, 3];
+let y = x.slice();
 console.log(y);
-console.log(y ,x===y);
+console.log(y, x === y);

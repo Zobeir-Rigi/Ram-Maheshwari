@@ -1,7 +1,8 @@
-const person1 = {
-  name: "sam",
-  age: 25,
+const classNine = {
+  name: "london9",
+  year: 2022
 };
-const person2 = person1;
-person2.name = "cat";
-console.log(person1.name, person2.name);
+
+const classTen = classNine;
+classTen.name = "london10";
+console.log(classNine.name, classTen.name);
